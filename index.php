@@ -1,9 +1,11 @@
 <?php
 $str_lang=$_SERVER['HTTP_ACCEPT_LANGUAGE'];
-$lang="pt";
-if(strpos($str_lang,'en') && !strpos($str_lang,'pt')){
+$str_lang=substr($str_lang, 0, 5);
+if($str_lang!="pt-BR"){
     $lang="en";
 }
+else{
+  $lang="pt";
+}
 header("Location: $lang/");
-
 ?>
