@@ -121,7 +121,7 @@
         }
           $scan=$scan_digitado*5;
           $scan=number_format($scan, 2, ',', '.');
-          $scan_def=$fw_digitado/10;
+          $scan_def=$fw_digitado/5;
           $scan_def=number_format($scan_def, 2, ',', '.');
           $fw_real=($fw_digitado/10)*7;
           $fw_real=number_format($fw_real, 2, ',', '.');
