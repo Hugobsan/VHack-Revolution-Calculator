@@ -45,7 +45,7 @@
 
     <!-- Formulário para receber os dados da conta -->
 
-    <form class="formulario border border-secondary rounded" action="english.php" method="POST">
+    <form class="formulario border border-secondary rounded" action="index.php" method="POST">
         <fieldset>
         <legend>Enter your attributes (Only Numbers):</legend>
         <label for=fw>FIREWALL:</label><br>
