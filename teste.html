@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>PegaDados</title>
+<script type="text/javascript">
+function mostraDados(){
+usuario = document.cadastro.usuario.value;
+senha = document.cadastro.senha.value;
+msg = "Usuário: " +usuario+ " Senha: " +senha ;
+alert(msg);
+ }
+</script>
+</head>
+<body>
+<form name="cadastro">
+<input type="text" name="usuario">
+<input type="password" name="senha">
+<input type="button" value="login" onclick="mostraDados()" >
+</form>
+</body>
+</html>
